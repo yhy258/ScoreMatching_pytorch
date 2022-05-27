@@ -1,5 +1,5 @@
 # NCSN_pytorch
-## Result
+## Result, MNIST Dataset
 3000 iteration  
 ![image](https://user-images.githubusercontent.com/33916246/169830113-2a0207aa-89ed-448f-b760-796f931a42c5.png)
   
