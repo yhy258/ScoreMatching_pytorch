@@ -26,3 +26,7 @@ Paper : https://openreview.net/pdf?id=vaRCHVj0uGI
 본 코드에서 사용한 모델은 official code와 형태를 최대한 비슷하게 가져가려했으나, 코랩 프로로 돌리기 어려워 다소 간소화된 모델로 구성했습니다.  
 그리고 official code에서는 fir filter를 사용하고 있으나 본 코드에서는 nearest 방법으로 sampling을 진행합니다.  
 모델 내부에서 Downsampling -> Upsampling을 거쳐 의도와 맞는 노이즈를 생성해야하는 Unet의 특성 상 이러한 샘플링 방법은 좋지 않을 수 있다고 생각됩니다.  
+
+I tried to make the model used in this code as similar as possible to the official code, but it was difficult to run it in Colab Pro, so I made a somewhat simplified model.
+Also, the official code uses the FIR filter, but this code uses the nearest method for sampling.
+I think this sampling method may not be good due to the nature of Unet, which needs to go through Downsampling -> Upsampling inside the model to generate noise that matches the intention.
